@@ -5,7 +5,6 @@ FARES = [160,190]
   def initialize(name)
     @name = name
   end
-
   def enter(ticket)
     ticket.stamp(@name)
   end
